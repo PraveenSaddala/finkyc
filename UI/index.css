@@ -112,7 +112,7 @@ body {
   max-height: 95px;
   height: 5%;
   background: #242582;
-
+  min-height: 90px;
 }
 
 .detailsheader {
@@ -330,7 +330,7 @@ li>a:only-child:after {
 
 
 .servicecontainer {
-  height: 100%;
+  height: auto;
   padding-top: 125px;
   width: 80%;
   position: relative;
