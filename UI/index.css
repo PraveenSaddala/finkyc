@@ -6,28 +6,37 @@ html * {
     sans-serif;
 }
 
+body {
+  margin: 0 !important;
+}
+
 .container {
   position: absolute;
   width: 100%;
   height: 100%;
 }
+
 .servicescontainer {
-    position: relative;
-        width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .header {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
   background-color: #242582;
-  top: 0px;
+  /* top: 0px; */
+  height: 15%;
+  min-height: 80px;
+  position: fixed;
+  z-index: 1;
 }
 
 .body {
   position: relative;
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -43,7 +52,7 @@ html * {
 
 .cardSection {
   background-color: #2F2FA2;
-  height: 420px;
+  height: 530px;
 }
 
 .contentSection {
@@ -83,13 +92,13 @@ html * {
 
 .featuresContainer {
   width: 100%;
-  height: 750px;
+  height: auto;
 }
 
 .featuresList {
   width: 100%;
   height: 57%;
-  ;
+  padding-bottom: 40px;
 }
 
 .featuresCard {
@@ -100,9 +109,10 @@ html * {
 
 .footer {
   width: 100%;
-  height: 100px;
+  max-height: 95px;
+  height: 5%;
   background: #242582;
-  
+
 }
 
 .detailsheader {
@@ -125,7 +135,7 @@ html * {
 .contentparent {
   width: 100%;
   height: 400px;
-  padding-top: 60px;
+  padding-top: 90px;
 }
 
 .logosection {
@@ -156,7 +166,7 @@ html * {
 }
 
 .footercontainer {
-  width: 20%;
+  width: 30%;
   height: 90%;
   align-self: flex-end;
 }
@@ -245,13 +255,14 @@ nav ul ul {
   display: none;
   position: absolute;
   top: 40px;
+  z-index: 2;
   /* the height of the main nav */
 }
 
 /* Display Dropdowns on Hover */
 nav ul li:hover>ul {
   display: inherit;
-  background-color: #99738E;
+  background-color: #F64C72;
   opacity: 1;
   font-size: 10px;
 }
@@ -280,11 +291,11 @@ li>a:only-child:after {
 }
 
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
   .featuresContainer {
     height: 1060px;
   }
-}
+} */
 
 @media only screen and (max-width: 700px) {
   .bannerImg {
@@ -301,7 +312,7 @@ li>a:only-child:after {
   }
 
   .featuresContainer {
-    height: 1900px;
+    height: auto;
   }
 
   nav ul ul {
