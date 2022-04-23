@@ -291,11 +291,11 @@ li>a:only-child:after {
 }
 
 
-/* @media only screen and (max-width: 1000px) {
-  .featuresContainer {
-    height: 1060px;
+@media only screen and (max-width: 1000px) {
+  nav ul ul {
+    left: 0px;
   }
-} */
+}
 
 @media only screen and (max-width: 700px) {
   .bannerImg {
@@ -374,7 +374,18 @@ li>a:only-child:after {
   font-size: 15px;
   text-align: justify;
 }
-
+.errorhead {
+  color: #4f4f4f;
+}
+.errormessage {
+  color: #4f4f4f;
+  font-size: 25px;
+}
+.gotohome {
+  font-size: 15px;
+  color: #4f4f4f;
+  font-weight: 400;
+}
 .test {
   background-color: #242582;
   background-color: #553D67;
