@@ -33,7 +33,7 @@ body {
   /* height: 80px; */
   background-color: #242582;
   /* top: 0px; */
-  height: 15%;
+  height: 10%;
   min-height: 80px;
   position: fixed;
   z-index: 3;
@@ -259,7 +259,7 @@ nav ul li {
 nav a {
   display: block;
   padding: 0 10px;
-  color: #FFF;
+  color: c;
   font-size: 14px;
   line-height: 40px;
   text-decoration: none;
