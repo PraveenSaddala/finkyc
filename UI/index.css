@@ -15,6 +15,11 @@ body {
   width: 100%;
   height: 100%;
 }
+.imageSestion {
+  width: 355px;
+  height: auto;
+  max-width: 210px
+}
 
 .servicescontainer {
   position: relative;
