@@ -16,8 +16,8 @@ body {
   height: 100%;
 }
 .imageSestion {
-  width: 800px;
-  height: 350px;
+  width: auto;
+  height: auto;
   margin: 1px;
 }
 
@@ -190,6 +190,7 @@ body {
   width: 30%;
   height: 90%;
   align-self: flex-end;
+  padding-left: 75px
 }
 
 .detailsheader {
@@ -346,6 +347,7 @@ li>a:only-child:after {
 
   .footercontainer {
     width: 45%;
+    padding-left: 30px
   }
 }
 
@@ -364,24 +366,27 @@ li>a:only-child:after {
 }
 
 .headcontainer {
-  width: 50%;
+  width: 100%;
   height: 100%;
   font-size: 30px;
   color: #4f4f4f;
 }
 
 .imagecontainer {
-  width: 500%;
+  width: 100%;
   height: 50%;
+  max-width: 600px;
+  padding-bottom: 50px;
 }
 
 .containerbody {
   width: 100%;
-  height: 30%;
+  height: auto;
+  padding-bottom: 50px;
 }
 
 .deschead {
-  height: 20%;
+  height: 30px;
   width: 100%;
   color: #4f4f4f;
   font-size: 20px;
@@ -394,6 +399,7 @@ li>a:only-child:after {
   color: #4f4f4f;
   font-size: 15px;
   text-align: justify;
+  line-height: 1.6;
 }
 
 .errorhead {
