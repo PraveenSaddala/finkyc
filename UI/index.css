@@ -260,11 +260,12 @@ nav ul li {
 nav a {
   display: block;
   padding: 0 10px;
-  color: c;
-  font-size: 14px;
+  color: #fcfcfc;
+  font-size: 16px;
   line-height: 40px;
   text-decoration: none;
   opacity: .9;
+  font-weight: 600;
 }
 
 nav a:hover {
