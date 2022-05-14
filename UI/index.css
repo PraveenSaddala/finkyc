@@ -136,7 +136,7 @@ body {
 }
 
 .detailsheader {
-  padding: 10px 0 10px 0;
+  padding: 2px 0 10px 0;
 }
 
 .BannerHeader {
@@ -187,7 +187,7 @@ body {
 }
 
 .footercontainer {
-  width: 30%;
+  width: 40%;
   height: 90%;
   align-self: flex-end;
   padding-left: 75px
@@ -196,11 +196,13 @@ body {
 .detailsheader {
   color: #f2f2f2;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .detailslink {
   color: #f2f2f2;
   font-size: 12px;
+  margin-bottom: 8px;
 }
 
 
@@ -292,7 +294,7 @@ nav ul li:hover>ul {
 
 /* Fisrt Tier Dropdown */
 nav ul ul li {
-  width: 170px;
+  width: 200px;
   float: none;
   display: list-item;
   position: relative;
@@ -320,6 +322,12 @@ li>a:only-child:after {
   }
 }
 
+@media only screen and (min-width: 1001px) {
+  nav ul ul {
+    left: 70px;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .bannerImg {
     width: 0;
@@ -339,11 +347,11 @@ li>a:only-child:after {
   }
 
   nav ul ul {
-    left: -34px;
+    left: 30px;
   }
 
   .optionssection {
-    width: 60%;
+    width: 70%;
   }
 
   .footercontainer {
